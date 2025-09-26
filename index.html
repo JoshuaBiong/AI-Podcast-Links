@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI & Tech Skills for Non-Technical Professionals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .dropdown-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.3s ease;
+      opacity: 0;
+    }
+    .dropdown-content.open {
+      max-height: 500px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="max-w-3xl mx-auto px-6 py-12">
+    <h1 class="text-3xl md:text-4xl font-bold text-center text-indigo-700 mb-6">
+      🎧 AI & Technical Skills Podcasts for Non-Technical People
+    </h1>
+    <p class="text-center text-gray-600 mb-8">
+      A curated list of YouTube podcasts and talks that explain why learning AI and tech skills
+      is important in 2025 and beyond — even if you’re not a programmer.
+    </p>
+
+    <div class="space-y-4">
+
+      <!-- Item 1 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(1)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          ✅ You’re Not Behind: Become an AI Power User in 2025
+          <span id="icon-1" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-1" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> It shows that even without a tech background, you can still thrive with AI — no coding required.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That AI isn’t just for experts; adopting tools now can boost your productivity immediately.</p>
+          <a href="https://www.youtube.com/watch?v=AGSChR09XxU" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(2)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          🎙️ Why “AI for Non-Technical Professionals” Courses Are a Waste
+          <span id="icon-2" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-2" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> It challenges common misconceptions so you don’t waste time on shallow courses.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That learning AI is about <em>application and outcomes</em>, not memorizing technical jargon.</p>
+          <a href="https://www.youtube.com/watch?v=CoqMBN4155E" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(3)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          🚀 From Non-Technical to $300,000 Per Month with AI Automation
+          <span id="icon-3" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-3" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> Proves non-technical people can build thriving businesses using AI tools.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That the AI economy is wide open for entrepreneurs — not just engineers.</p>
+          <a href="https://www.youtube.com/watch?v=0REJDVvBvWQ" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(4)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          📈 AI Skills That Employers Are DESPERATE For (No Coding)
+          <span id="icon-4" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-4" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> Employers in 2025 are actively hiring for AI literacy — no degree needed.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That AI knowledge makes you more employable and future-proof in any industry.</p>
+          <a href="https://www.youtube.com/watch?v=VO1xUwJLAxQ" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(5)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          🔑 Simplifying AI for Non-Tech Leaders
+          <span id="icon-5" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-5" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> Leaders who understand AI can make smarter, future-proof business decisions.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That you don’t need to code to lead teams into AI adoption effectively.</p>
+          <a href="https://www.youtube.com/watch?v=ZC5AHhpKN9I" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(6)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          💡 Demystifying AI with Heather Murray: A Non-Techie’s Guide
+          <span id="icon-6" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-6" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> Breaks AI down in a way anyone can understand.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That AI isn’t as intimidating as it looks — it’s already useful in your everyday tasks.</p>
+          <a href="https://www.youtube.com/watch?v=5Mgs6Kq0fqg" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+      <!-- Item 7 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(7)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          🌍 AI for Everyone: A Non-Technical Introduction
+          <span id="icon-7" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-7" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> Perfect for beginners who want a no-fear entry point into AI.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That AI concepts are simple when explained clearly, and you can start today.</p>
+          <a href="https://www.youtube.com/watch?v=HDOrjXHhJmo" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+      <!-- Item 8 -->
+      <div class="bg-white rounded-lg shadow">
+        <button onclick="toggleDropdown(8)" 
+          class="w-full flex justify-between items-center text-left p-4 font-semibold text-indigo-700 hover:bg-indigo-50 rounded-lg">
+          🔮 You’re Not Behind: Become AI-Native (without the overwhelm)
+          <span id="icon-8" class="transition-transform">➕</span>
+        </button>
+        <div id="dropdown-8" class="dropdown-content px-4 text-gray-700">
+          <p class="mb-2"><strong>Why it’s important:</strong> Teaches how to fully embrace AI in your work and lifestyle.</p>
+          <p class="mb-2"><strong>What you’ll realize:</strong> That being “AI-native” isn’t about coding — it’s about mindset and daily integration.</p>
+          <a href="https://www.youtube.com/watch?v=j63bBK_ct-M" target="_blank" class="text-indigo-600 hover:underline">▶ Watch on YouTube</a>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="mt-12 text-center text-gray-500 text-sm">
+      Curated by Joshua Biong | Updated 2025
+    </footer>
+  </div>
+
+  <script>
+    function toggleDropdown(id) {
+      // Close all dropdowns
+      for (let i = 1; i <= 8; i++) {
+        const content = document.getElementById(`dropdown-${i}`);
+        const icon = document.getElementById(`icon-${i}`);
+        if (i === id) continue;
+        if (content.classList.contains("open")) {
+          content.classList.remove("open");
+          icon.textContent = "➕";
+        }
+      }
+      // Toggle selected dropdown
+      const selectedContent = document.getElementById(`dropdown-${id}`);
+      const selectedIcon = document.getElementById(`icon-${id}`);
+      selectedContent.classList.toggle("open");
+      if (selectedContent.classList.contains("open")) {
+        selectedIcon.textContent = "➖";
+      } else {
+        selectedIcon.textContent = "➕";
+      }
+    }
+  </script>
+</body>
+</html>
